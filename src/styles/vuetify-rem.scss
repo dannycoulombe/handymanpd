@@ -1,0 +1,42 @@
+//v-toolbar
+.v-toolbar, .v-toolbar__content { height: 4rem !important }
+
+//v-btn
+.v-btn:not(.v-btn--round).v-size--default {
+  height: 2.25rem;
+  padding: 0 1rem;
+  min-width: 4rem;
+}
+.v-btn__content .v-icon.v-icon--left,
+.v-btn__content .v-icon.v-icon--right {
+  font-size: 1.125rem;
+  height: 1.125rem;
+  width: 1.125rem;
+}
+.v-btn:not(.v-btn--round).v-size--x-large {
+  height: 3.25rem;
+  min-width: 5.75rem;
+  padding: 0 1.44rem;
+}
+.v-btn:not(.v-btn--round).v-size--large {
+  height: 2.75rem;
+  min-width: 4.875rem;
+  padding: 0 1.22rem;
+  padding: 0 1.22rem;
+}
+.v-btn--fab.v-size--x-large {
+  height: 4.5rem;
+  width: 4.5rem;
+}
+.v-btn--icon.v-size--x-large .v-icon, .v-btn--fab.v-size--x-large .v-icon {
+  height: 2rem;
+  font-size: 2rem;
+  width: 2rem;
+}
+
+// other stuff..
+.v-label { font-size: 1rem }
+.v-messages__message {
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+}

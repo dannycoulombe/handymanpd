@@ -1,0 +1,13 @@
+{
+	"btn.pause": "Pausar",
+	"btn.play": "Reproducir",
+	"contact.email": "Email",
+	"contact.form": "Formulario de correo electrónico",
+	"contact.message": "Mensaje",
+	"contact.name": "Nombre completo",
+	"contact.send": "Enviar mensaje",
+	"contact.sent": "Su mensaje ha sido enviado exitosamente y le responderé en breve.",
+	"contact.subject": "Tema",
+	"rules.email": "Introduzca una dirección de correo electrónico válida",
+	"rules.required": "Este campo es requerido"
+}

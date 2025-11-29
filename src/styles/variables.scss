@@ -1,0 +1,173 @@
+//vuetify
+$blockquote-font-size: 1.125rem !default;
+$spacer: 0.25rem !default;
+$code-kbd-border-radius: 0.1875rem !default;
+$border-radius-root: 0.25rem !default;
+$blockquote-font-size: 1.125rem !default;
+//$input-top-spacing: 1rem !default;
+//$text-field-active-label-height: 0.5rem !default;
+
+//v-btn
+$btn-rounded-border-radius: 1.75rem;
+$btn-icon-font-size: 1.125rem !default;
+$btn-icon-padding: 0.75rem !default;
+
+//v-tabs
+$tabs-bar-height: 4rem !default;
+$tabs-icons-and-text-bar-height: 4.5rem !default;
+$tabs-icons-and-text-first-tab-margin-bottom: 0.375rem !default;
+$tabs-item-align-with-title-margin: 2.625rem !default;
+$tabs-item-max-width: 22.5rem !default;
+$tabs-item-min-width: 5.625rem !default;
+$tabs-item-padding: 0 1rem !default;
+
+//v-app-bar
+$app-bar-scrolled-title-padding-bottom: 0.5625rem !default;
+
+//v-toolbar
+$toolbar-btn-icon-size: 4rem !default;
+$toolbar-content-padding-y: 0.25rem !default;
+$toolbar-content-padding-x: 1rem !default;
+$toolbar-title-padding: 1.25rem !default;
+$toolbar-collapsed-max-width: 7rem !default;
+$toolbar-collapsed-border-radius: 1.5rem !default;
+$toolbar-prominent-padding: 0.375rem !default;
+
+//v-list
+$avatar-margin-x: 1rem !default;
+$list-dense-subheader-height: 2.5rem !default;
+$list-item-avatar-margin-y: 1rem !default;
+$list-item-avatar-horizontal-margin-x: -1rem !default;
+$list-item-icon-margin-y: 1rem !default;
+$list-item-min-height: 3rem !default;
+$list-item-two-line-min-height: 4rem !default;
+$list-item-three-line-min-height: 5.5rem !default;
+$list-padding: 0.5rem !default;
+$list-dense-subheading-padding: 0 0.5rem !default;
+$list-nav-rounded-item-margin-bottom: 0.5rem !default;
+$list-nav-rounded-item-dense-margin-bottom: 0.25rem !default;
+$list-nav-padding-left: 0.5rem !default;
+$list-nav-padding-right: 0.5rem !default;
+$list-nav-item-padding: 0 0.5rem !default;
+$list-shaped-padding: 0.5rem !default;
+$list-group-header-icon-min-width: 3rem !default;
+$list-group-sub-group-child-margin: 1rem !default;
+$list-group-sub-group-header-margin: 2rem !default;
+$list-group-items-item-padding: 2.5rem !default;
+$list-group-no-action-item-padding: 4.5rem !default;
+$list-dense-subheader-padding: 0 0.5rem !default;
+$list-nav-rounded-dense-item-margin-bottom: 0.25rem !default;
+$list-group-no-action-sub-group-item-padding: 5.5rem !default;
+$list-group-dense-sub-group-header-padding: 1.5rem !default;
+$list-group-nav-no-action-item-padding: 4rem !default;
+$list-group-sub-group-item-padding: 5rem !default;
+$list-item-padding: 0 1rem !default;
+$list-item-action-margin: 0.75rem 0 !default;
+$list-item-avatar-horizontal-margin: 0.5rem !default;
+$list-item-content-padding: 0.75rem 0 !default;
+$list-item-content-children-margin-bottom: 0.125rem !default;
+$list-item-icon-margin: 1rem 0 !default;
+$list-item-child-last-type-margin: 1rem !default;
+$list-item-child-min-width: 1.5rem !default;
+$list-item-avatar-first-child-margin: 1rem !default;
+$list-item-action-icon-margin: 2rem !default;
+$list-dense-icon-height: 1.5rem !default;
+$list-dense-icon-margin: 0.5rem !default;
+$list-dense-min-height: 2.5rem !default;
+$list-item-dense-title-line-height: 1rem !default;
+$list-item-dense-two-line-min-height: 3.75rem !default;
+$list-item-dense-three-line-min-height: 4.75rem !default;
+$list-dense-content-padding: 0.5rem 0 !default;
+$list-item-two-line-icon-margin-bottom: 2rem !default;
+$list-item-three-line-avatar-action-margin: 1rem !default;
+
+//v-icon
+$icon-size: 1.5rem !default;
+$icon-size-dense: 1.25rem !default;
+
+//v-input
+$input-font-size: 1rem !default;
+$input-max-height: 2rem !default;
+$input-label-height: 1.25rem !default;
+$input-prepend-append-outer-margin: 0.5625rem !default;
+$input-icon-height: 1.5rem !default;
+$input-icon-min-width: 1.5rem !default;
+$input-icon-width: 1.5rem !default;
+$input-slot-margin-bottom: 0.5rem !default;
+$input-dense-slot-margin-bottom: 0.25rem !default;
+
+//v-select
+$select-chip-margin: 0.25rem !default;
+$select-dense-chip-margin: 0 0.25rem 0 0.25rem !default;
+$select-prefix-line-height: 1.25rem !default;
+$select-prefix-top: 0.4375rem !default;
+$select-selections-padding-top: 1.25rem !default;
+$select-outlined-selections-padding-top: 0.5rem 0 !default;
+$select-outlined-dense-selections-padding-top: 0.25rem 0 !default;
+$select-chips-selections-padding-top: 2.625rem !default;
+$select-chips-dense-selections-padding-top: 2.5rem !default;
+$select-small-chips-selections-min-height: 1.625rem !default;
+$select-chips-box-enclosed-selections-min-height: 4.25rem !default;
+$select-chips-dense-selections-min-height: 2.5rem !default;
+$select-small-chips-dense-selections-min-height: 2.375rem !default;
+$select-selections-line-height: 1.125rem !default;
+$select-selections-margin: 0.4375rem 0.25rem 0.4375rem 0 !default;
+$select-selections-min-height: 0.625rem !default;
+$select-dense-selections-margin: 0.3125rem 0.25rem 0.1875rem 0 !default;
+
+//v-text-field
+$text-field-line-height: 1.25rem !default;
+$text-field-padding: 0.5rem 0 0.5rem !default;
+$text-field-dense-padding: 0.25rem 0 0.125rem !default;
+$text-field-append-prepend-margin: 0.25rem !default;
+$text-field-dense-append-prepend-margin: 0 !default;
+$text-field-dense-icon-append-prepend-margin-top: 0.5rem !default;
+$text-field-filled-full-width-outlined-slot-min-height: 3.5rem !default;
+$text-field-filled-full-width-outlined-dense-slot-min-height: 3.25rem !default;
+$text-field-filled-full-width-outlined-single-line-slot-min-height: 2.5rem !default;
+$text-field-counter-margin: 0.5rem !default;
+$text-field-label-top: 0.375rem !default;
+$text-field-label-active-transform: translateY(-1.125rem) scale(.75) !default;
+$text-field-details-min-height: 0.875rem !default;
+$text-field-filled-full-width-label-top: 1.125rem !default;
+$text-field-filled-full-width-label-active-transform: translateY(-0.375rem) scale(.75) !default;
+$text-field-dense-label-top: 1.0625rem !default;
+$text-field-dense-label-active-transform: translateY(-0.625rem) scale(.75) !default;
+$text-field-single-line-label-top: 0.6875rem !default;
+$text-field-filled-margin-top: 1.375rem !default;
+$text-field-enclosed-prepend-append-margin-top: 1.0625rem !default;
+$text-field-dense-prepend-append-margin-top: 0.875rem !default;
+$text-field-single-line-prepend-append-margin-top: 0.5625rem !default;
+$text-field-outlined-prepend-append-margin-top: 0.5rem !default;
+$text-field-enclosed-details-padding: 0 0.75rem !default;
+$text-field-details-padding-top: 0 !default;
+$text-field-details-margin-bottom: 0.5rem !default;
+$text-field-outlined-margin-bottom: 1rem !default;
+$text-field-outlined-label-position-x: 1.125rem !default;
+$text-field-outlined-label-position-y: -1.5rem !default;
+$text-field-outlined-dense-label-position-x: 0.625rem !default;
+$text-field-outlined-dense-label-position-y: -1rem !default;
+$text-field-prefix-max-height: 2rem !default;
+$text-field-outlined-append-prepend-outer-margin-top: 1.125rem !default;
+$text-field-outlined-fieldset-top: -0.3125rem !default;
+$text-field-outlined-fieldset-border-width: 0.0625rem !default;
+$text-field-outlined-fieldset-padding: 0.5rem !default;
+$text-field-outlined-legend-line-height: 0.6875rem !default;
+$text-field-rounded-legend-margin: 0.75rem !default;
+$text-field-rounded-border-radius: 1.75rem !default;
+$text-field-shaped-border-radius: 1rem 1rem 0 0 !default;
+$text-field-outlined-fieldset-border: 0.125rem solid currentColor !default;
+$text-field-outlined-rounded-slot-padding: 0 1.5rem !default;
+$text-field-solo-label-top: calc(50% - 0.5625rem) !default;
+$text-field-solo-control-min-height: 4rem !default;
+$text-field-solo-dense-control-min-height: 2.375rem !default;
+$text-field-solo-outer-margin-top: 0.75rem !default;
+$text-field-solo-dense-outer-margin-top: 0.4375rem !default;
+
+//v-card
+$card-actions-padding: 0.5rem !default;
+$card-btn-margin-x: 0.5rem !default;
+$card-btn-padding: 0 0.5rem !default;
+$card-btn-small-margin-x: 0.25rem !default;
+$card-subtitle-padding: 1rem !default;
+$card-title-adjacent-sibling-subtitle-margin-top: -1rem !default;

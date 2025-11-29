@@ -1,0 +1,41 @@
+name: Deploy to host
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20'
+
+      - name: Defining environment variables
+        run: |
+          echo "JSONMS_HASH=77c84d3b2a" > .env
+          echo "JSONMS_DATA_PATH=https://jsonms.coulombe.dev/files/" >> .env
+          echo "JSONMS_PUBLIC_URL=https://jsonms.coulombe.dev/" >> .env
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Build project
+        run: yarn build
+
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist/
+          server-dir: ${{ secrets.FTP_PATH }}
+          protocol: ftps

@@ -1,0 +1,19 @@
+{
+	"btn.pause": "Pause",
+	"btn.play": "Play",
+	"contact.email": "Email",
+	"contact.form": "Email form",
+	"contact.message": "Message",
+	"contact.name": "Complete name",
+	"contact.send": "Send message",
+	"contact.sent": "Your message has been sent successfully and I will reply shortly.",
+	"contact.subject": "Subject",
+	"rules.email": "Enter a valid email address",
+	"rules.required": "This field is required",
+	"route.home": "Presentation",
+	"route.about": "About us",
+	"route.faq": "FAQ",
+	"route.portfolio": "Portfolio",
+	"route.testimonials": "Testimonials",
+	"route.contact": "Contact"
+}
