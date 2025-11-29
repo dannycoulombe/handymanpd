@@ -23,7 +23,7 @@
               </v-avatar>
             </div>
             <v-card-title>{{ testimonial.name }}</v-card-title>
-            <v-card-subtitle>{{ testimonial.country }}</v-card-subtitle>
+            <v-card-subtitle>{{ testimonial.from }}</v-card-subtitle>
             <v-card-text>
               <div v-html="$options.filters?.markdown(testimonial.body)"></div>
             </v-card-text>
@@ -63,7 +63,7 @@ export default class TestimonialsView extends Vue {
       body: item.body[this.$i18n.locale],
       thumbnail: this.$jmsPath(item.thumbnail),
       name: item.name,
-      country: item.country,
+      from: item.from,
     }))
   }
 }
